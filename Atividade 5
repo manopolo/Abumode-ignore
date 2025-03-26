@@ -1,0 +1,16 @@
+algoritmo "PreenchimentoVetorPares"
+var
+   vetor: vetor[1..50] de inteiro
+   i, valor: inteiro
+inicio
+   valor <- 0
+   para i de 1 ate 50 faca
+      vetor[i] <- valor
+      valor <- valor + 2
+   fimpara
+
+   // Exibindo o vetor preenchido
+   para i de 1 ate 50 faca
+      escreval("Posição ", i, ": ", vetor[i])
+   fimpara
+fimalgoritmo
