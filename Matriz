@@ -1,0 +1,27 @@
+programa {
+  funcao inicio() {
+    inteiro coluna1[4],coluna2[4],coluna3[4],coluna4[4],x,y,z,j,somaNumeros=0
+escreva("começe com os numeros da linha 1 \n \n")
+   para (x=0;x<4;x ++){
+    escreva("digite o ",x,"º numero da linha 1 \n")
+    leia (coluna1[x])
+   }
+   escreva("agora os numeros da linha 2 \n \n")
+   para (y=0;y<4;y ++){
+    escreva("digite o ",y,"º numero da linha 2 \n")
+    leia (coluna2[y])
+   }
+   escreva("agora os numeros da linha 3 \n \n")
+   para (z=0;z<4;z ++){
+    escreva("digite o ",z,"º numero da linha 3 \n")
+    leia (coluna3[z])
+   }
+   escreva("agora os numeros da linha 4 \n \n")
+   para (j=0;j<4;j ++){
+    escreva("digite o ",j,"º numero da linha 4 \n")
+    leia (coluna4[j])
+   }
+   somaNumeros=somaNumeros+coluna1[0]+coluna2[1]+coluna3[2]+coluna4[3]
+   escreva("a soma dos numeros da diagonal principal é :",somaNumeros)
+  }
+}
